@@ -1,0 +1,5 @@
+name: varel-portfolio
+channels:
+  - conda-forge
+dependencies:
+  - nodejs=20

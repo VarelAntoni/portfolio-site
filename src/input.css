@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background:
+      radial-gradient(1200px 600px at 10% -10%, #1a245a 0%, transparent 60%),
+      radial-gradient(1000px 700px at 110% 0%, #2a165f 0%, transparent 55%),
+      #0b1020;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-panel/90 border border-line rounded-xl2 shadow-soft;
+  }
+  .chip {
+    @apply text-xs bg-bg/60 border border-line px-2 py-1 rounded-full;
+  }
+  .btn {
+    @apply px-4 py-2 rounded-xl font-semibold text-sm border border-line
+           hover:border-white/20 hover:-translate-y-0.5 transition;
+  }
+  .btn-primary {
+    @apply text-black bg-gradient-to-br from-accent to-accent2
+           shadow-lg shadow-accent/20 hover:-translate-y-0.5 transition;
+  }
+}
