@@ -4,14 +4,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        bg: "#0b1020",
-        panel: "#121936",
-        panel2: "#0d1431",
+        bg: "#061511",                 // background utama (hijau gelap)
+        panel: "#0b2420",              // card utama (deep emerald / teal gelap)
+        panel2: "#081d1a",             // card secondary / inner panels
         line: "rgba(255,255,255,.08)",
-        text: "#e6e9f5",
-        muted: "#a9b0c7",
-        accent: "#7dd3fc",
-        accent2: "#a78bfa"
+        text: "#e8fff6",
+        muted: "#a7cbbb",
+        accent: "#34d399",             // emerald utama
+        accent2: "#22c55e"             
       },
       boxShadow: {
         soft: "0 10px 30px rgba(0,0,0,.35)"

@@ -19,51 +19,69 @@ export const highlights = [
 export const projects = [
   {
     title: "Facility Maintenance Request Website (CV + LLM)",
+    category: ["CV", "LLM", "Product"],
     desc:
       "Sistem AI untuk mendeteksi kerusakan fasilitas via YOLOv9 custom training, lalu menghasilkan laporan otomatis dengan integrasi Gemini API.",
+    longDesc:
+      "End-to-end AI system: training YOLOv9 dengan dataset custom untuk deteksi kerusakan fasilitas, lalu hasil deteksi dikonversi menjadi laporan otomatis menggunakan Gemini API. Di-deploy sebagai web app untuk alur maintenance request.",
     tech: ["Python", "YOLOv9", "Gemini API", "Streamlit", "Roboflow"],
     demo: "https://warp1.up.railway.app/",
     repo: "https://github.com/adhiyasaa/Warp/tree/varel-docker"
   },
   {
     title: "RAG-based Intelligent Chatbot (PT Telkom)",
+    category: ["LLM", "RAG", "DS"],
     desc:
       "Chatbot internal berbasis Retrieval-Augmented Generation untuk memanfaatkan dokumentasi perusahaan dan meningkatkan akurasi pencarian knowledge.",
+    longDesc:
+      "Membangun pipeline RAG (chunking dokumen, embedding, indexing, retrieval) untuk QnA berbasis knowledge internal. Fokus pada peningkatan relevansi jawaban dan kemudahan akses informasi.",
     tech: ["Python", "LLM", "RAG", "Streamlit"],
-    demo: "https://case-study-link",
-    repo: "https://github.com/USERNAME/repo"
+    demo: "",
+    repo: "https://github.com/VarelAntoni/machine_learning_project/tree/main/knowledge-continuity-assistant"
   },
   {
     title: "Baby Position Safety Detection (YOLOv9)",
+    category: ["CV", "Safety"],
     desc:
       "Model vision untuk mendeteksi posisi bayi (tidur, berdiri, dekat tepi ranjang) sebagai bagian dari monitoring keselamatan.",
+    longDesc:
+      "Custom YOLOv9 untuk klasifikasi posisi bayi pada berbagai kondisi. Dataset dilabeli dan divalidasi untuk meningkatkan robustness pada kondisi real-world.",
     tech: ["Python", "YOLOv9", "Roboflow", "CVAT"],
     demo: "",
-    repo: "https://github.com/USERNAME/repo"
+    repo: "https://github.com/VarelAntoni/machine_learning_project/tree/main/baby_object_detection"
   },
   {
     title: "Personal Color Detector (Capstone DBS)",
+    category: ["CV", "Dashboard"],
     desc:
       "Aplikasi CV untuk mendeteksi personal color sebagai rekomendasi fashion. Dataset labeling + CNN modeling, lalu deploy ke dashboard.",
+    longDesc:
+      "Capstone project DBS Coding Camp: membangun CNN classifier untuk personal color detection, melakukan dataset labeling/augmentation, evaluasi performa, dan deploy ke web untuk user testing.",
     tech: ["Python", "CNN", "Streamlit", "Computer Vision"],
-    demo: "https://demo-link-kamu",
-    repo: "https://github.com/USERNAME/repo"
+    demo: "https://color-tone-detector.vercel.app/home",
+    repo: "https://github.com/Capstone-Coding-Camp-CC25-CF139"
   },
   {
     title: "Heart Disease Prediction Dashboard",
+    category: ["DS", "Dashboard"],
     desc:
       "Model klasifikasi prediksi penyakit jantung dengan hyperparameter tuning, ditampilkan pada dashboard interaktif.",
+    longDesc:
+      "Project klasifikasi health analytics: EDA, feature engineering, training beberapa model, tuning hyperparameter, lalu disajikan ke dashboard interaktif untuk interpretasi hasil.",
     tech: ["Python", "ML Classification", "Streamlit"],
-    demo: "https://dashboard-link",
-    repo: "https://github.com/USERNAME/repo"
+    demo: "",
+    repo: "https://github.com/VarelAntoni/machine_learning_project/tree/main/heart_disease_prediction"
   },
   {
     title: "Home Credit Scorecard Model (Rakamin)",
+    category: ["DS", "Finance"],
     desc:
       "Pemodelan credit risk scorecard end-to-end untuk prediksi risiko kredit dalam program project-based internship.",
+    longDesc:
+      "Membangun model scorecard risiko kredit: preprocessing, feature engineering, training model, evaluasi metrik bisnis, dan dokumentasi hasil.",
     tech: ["Python", "SQL/MySQL", "Feature Engineering", "ML"],
     demo: "",
-    repo: "https://github.com/USERNAME/repo"
+    repo: "https://github.com/VarelAntoni/machine_learning_project/tree/main/score_credit_prediction"
   }
 ];
 
@@ -117,7 +135,7 @@ export const achievements = [
 ];
 
 export const certifications = [
-  "DBS Coding Camp 2025 — 13 sertifikat ML/DL (Dicoding)",
+  "DBS Coding Camp 2025 - 13 sertifikat ML/DL (Dicoding)",
   "Home Credit DS Project-Based Internship (Rakamin)",
   "Accenture Data Analytics & Visualization (Forage)",
   "10+ SQL/MySQL Certifications (DQLab)"
