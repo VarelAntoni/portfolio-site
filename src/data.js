@@ -19,7 +19,7 @@ export const highlights = [
 export const projects = [
   {
     title: "Facility Maintenance Request Website (CV + LLM)",
-    category: ["CV", "LLM", "Product"],
+    category: ["CV", "LLM", "Product", "Safety"],
     desc:
       "Sistem AI untuk mendeteksi kerusakan fasilitas via YOLOv9 custom training, lalu menghasilkan laporan otomatis dengan integrasi Gemini API.",
     longDesc:
@@ -30,7 +30,7 @@ export const projects = [
   },
   {
     title: "Get To Know About Varel's Experience",
-    category: ["LLM"],
+    category: ["LLM", "Product", "RAG"],
     desc:
       "Asisten virtual interaktif berbasis RAG (Retrieval-Augmented Generation) yang memungkinkan rekruter mewawancarai profil profesional saya secara real-time.",
     longDesc:
