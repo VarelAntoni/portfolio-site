@@ -29,6 +29,17 @@ export const projects = [
     repo: "https://github.com/adhiyasaa/Warp/tree/varel-docker"
   },
   {
+    title: "Get To Know About Varel's Experience",
+    category: ["LLM"],
+    desc:
+      "Asisten virtual interaktif berbasis RAG (Retrieval-Augmented Generation) yang memungkinkan rekruter mewawancarai profil profesional saya secara real-time.",
+    longDesc:
+      "Mengembangkan sistem chatbot End-to-End menggunakan LangChain dan Google Gemini API. Proyek ini mengimplementasikan teknik RAG untuk mengekstraksi informasi dari dokumen PDF, menggunakan FAISS untuk pencarian vektor (Vector Search) yang efisien, serta Prompt Engineering untuk memastikan jawaban yang akurat dan profesional. Dilengkapi dengan mekanisme Human-in-the-Loop (Feedback system) untuk evaluasi performa model.",
+    tech: ["Python", "LangChain", "Google Gemini API", "FAISS (Vector DB)", "Streamlit", "RAG"],
+    demo: "https://gettoknowvarel.streamlit.app/",
+    repo: "https://github.com/VarelAntoni/machine_learning_project/tree/main/chat_cv"
+  },
+  {
     title: "RAG-based Intelligent Chatbot (PT Telkom)",
     category: ["LLM", "RAG", "DS"],
     desc:
@@ -71,17 +82,6 @@ export const projects = [
     tech: ["Python", "ML Classification", "Streamlit"],
     demo: "",
     repo: "https://github.com/VarelAntoni/machine_learning_project/tree/main/heart_disease_prediction"
-  },
-  {
-    title: "Home Credit Scorecard Model (Rakamin)",
-    category: ["DS", "Finance"],
-    desc:
-      "Pemodelan credit risk scorecard end-to-end untuk prediksi risiko kredit dalam program project-based internship.",
-    longDesc:
-      "Membangun model scorecard risiko kredit: preprocessing, feature engineering, training model, evaluasi metrik bisnis, dan dokumentasi hasil.",
-    tech: ["Python", "SQL/MySQL", "Feature Engineering", "ML"],
-    demo: "",
-    repo: "https://github.com/VarelAntoni/machine_learning_project/tree/main/score_credit_prediction"
   }
 ];
 
