@@ -1,6 +1,6 @@
 export const profile = {
   name: "Muhammad Varel Antoni",
-  tagline: "Data Science & AI Enthusiast | Aspiring Data Scientist / ML-AI Engineer",
+  tagline: "Computer Vision Engineer Intern @ CADIT Consultants Asia Pte Ltd | Ex-Data Scientist Intern @ PT Telkom Indonesia | Undergraduate Information Technology Student @ University of Brawijaya",
   location: "Malang, Indonesia",
   email: "varelantoni@gmail.com",
   whatsapp: "6287836466177",
@@ -9,92 +9,12 @@ export const profile = {
   cv: "https://drive.google.com/file/d/1bn4MXwnTIwdSniLUSfsysFHIk8dBI7bk/view?usp=sharing"
 };
 
-export const highlights = [
-  { label: "GPA", value: "3.80" },
-  { label: "Role Target", value: "Data Scientist / ML-AI / CV Engineer" },
-  { label: "Latest Internship", value: "CV Engineer - CADIT" },
-  { label: "Achievement", value: "COMPFEST AI Finalist 2025" }
-];
-
-export const projects = [
-  {
-    title: "Facility Maintenance Request Website (CV + LLM)",
-    category: ["CV", "LLM", "Product"],
-    desc:
-      "Sistem AI untuk mendeteksi kerusakan fasilitas via YOLOv9 custom training, lalu menghasilkan laporan otomatis dengan integrasi Gemini API.",
-    longDesc:
-      "End-to-end AI system: training YOLOv9 dengan dataset custom untuk deteksi kerusakan fasilitas, lalu hasil deteksi dikonversi menjadi laporan otomatis menggunakan Gemini API. Di-deploy sebagai web app untuk alur maintenance request.",
-    tech: ["Python", "YOLOv9", "Gemini API", "Streamlit", "Roboflow"],
-    demo: "https://warp1.up.railway.app/",
-    repo: "https://github.com/adhiyasaa/Warp/tree/varel-docker"
-  },
-  {
-    title: "RAG-based Intelligent Chatbot (PT Telkom)",
-    category: ["LLM", "RAG", "DS"],
-    desc:
-      "Chatbot internal berbasis Retrieval-Augmented Generation untuk memanfaatkan dokumentasi perusahaan dan meningkatkan akurasi pencarian knowledge.",
-    longDesc:
-      "Membangun pipeline RAG (chunking dokumen, embedding, indexing, retrieval) untuk QnA berbasis knowledge internal. Fokus pada peningkatan relevansi jawaban dan kemudahan akses informasi.",
-    tech: ["Python", "LLM", "RAG", "Streamlit"],
-    demo: "",
-    repo: "https://github.com/VarelAntoni/machine_learning_project/tree/main/knowledge-continuity-assistant"
-  },
-  {
-    title: "Baby Position Safety Detection (YOLOv9)",
-    category: ["CV", "Safety"],
-    desc:
-      "Model vision untuk mendeteksi posisi bayi (tidur, berdiri, dekat tepi ranjang) sebagai bagian dari monitoring keselamatan.",
-    longDesc:
-      "Custom YOLOv9 untuk klasifikasi posisi bayi pada berbagai kondisi. Dataset dilabeli dan divalidasi untuk meningkatkan robustness pada kondisi real-world.",
-    tech: ["Python", "YOLOv9", "Roboflow", "CVAT"],
-    demo: "",
-    repo: "https://github.com/VarelAntoni/machine_learning_project/tree/main/baby_object_detection"
-  },
-  {
-    title: "Personal Color Detector (Capstone DBS)",
-    category: ["CV", "Dashboard"],
-    desc:
-      "Aplikasi CV untuk mendeteksi personal color sebagai rekomendasi fashion. Dataset labeling + CNN modeling, lalu deploy ke dashboard.",
-    longDesc:
-      "Capstone project DBS Coding Camp: membangun CNN classifier untuk personal color detection, melakukan dataset labeling/augmentation, evaluasi performa, dan deploy ke web untuk user testing.",
-    tech: ["Python", "CNN", "Streamlit", "Computer Vision"],
-    demo: "https://color-tone-detector.vercel.app/home",
-    repo: "https://github.com/Capstone-Coding-Camp-CC25-CF139"
-  },
-  {
-    title: "Heart Disease Prediction Dashboard",
-    category: ["DS", "Dashboard"],
-    desc:
-      "Model klasifikasi prediksi penyakit jantung dengan hyperparameter tuning, ditampilkan pada dashboard interaktif.",
-    longDesc:
-      "Project klasifikasi health analytics: EDA, feature engineering, training beberapa model, tuning hyperparameter, lalu disajikan ke dashboard interaktif untuk interpretasi hasil.",
-    tech: ["Python", "ML Classification", "Streamlit"],
-    demo: "",
-    repo: "https://github.com/VarelAntoni/machine_learning_project/tree/main/heart_disease_prediction"
-  },
-  {
-    title: "Home Credit Scorecard Model (Rakamin)",
-    category: ["DS", "Finance"],
-    desc:
-      "Pemodelan credit risk scorecard end-to-end untuk prediksi risiko kredit dalam program project-based internship.",
-    longDesc:
-      "Membangun model scorecard risiko kredit: preprocessing, feature engineering, training model, evaluasi metrik bisnis, dan dokumentasi hasil.",
-    tech: ["Python", "SQL/MySQL", "Feature Engineering", "ML"],
-    demo: "",
-    repo: "https://github.com/VarelAntoni/machine_learning_project/tree/main/score_credit_prediction"
-  }
-];
-
-export const skills = {
-  core: ["Python", "SQL", "MySQL", "Data Science", "Machine Learning", "Deep Learning"],
-  aiFocus: [
-    "Computer Vision (YOLO, CNN)",
-    "LLM & RAG",
-    "NLP Classification",
-    "Time Series",
-    "Recommendation System"
-  ],
-  tools: ["Google Colab", "Roboflow", "CVAT", "Streamlit", "GitHub/GitLab", "VS Code", "Excel"]
+export const about = {
+  title: "About Me",
+  paragraphs: [
+    "I’m Muhammad Varel Antoni, an Informatics student at the University of Brawijaya with a strong interest in Data Science and Artificial Intelligence. I enjoy transforming data into meaningful insights and building practical AI solutions that address real-world problems. My experience includes developing end-to-end machine learning pipelines from data preparation and modeling to evaluation and deployment across projects in computer vision and LLM-based applications.",
+    "Beyond modeling, I focus on delivering usable and impactful products by designing clear workflows, ensuring high-quality data, and deploying prototypes using tools such as Streamlit for real-world testing. I am continuously learning and highly motivated to contribute to internship or project opportunities as a Data Scientist, Machine Learning Engineer, or Computer Vision Engineer, collaborating with teams to build reliable, user-centered AI systems."
+  ]
 };
 
 export const experience = [
@@ -103,57 +23,234 @@ export const experience = [
     org: "CADIT Consultants Asia Pte Ltd",
     time: "Oct 2025 - Present",
     detail:
-      "Mengembangkan Safety AI System untuk maritime logistics, menjaga kualitas dataset, serta klasifikasi objek keselamatan & logistik (PPE, Cargo)."
+      "Developing a Safety AI System for maritime logistics, maintaining dataset quality, and performing object classification related to safety and logistics (PPE, cargo).",
+    logoPng: "/assets/company/cadit.png",
+    icons: ["Computer Vision", "PyTorch", "YOLO", "Python"]
   },
   {
     role: "Data Scientist Intern",
     org: "PT Telkom Indonesia",
     time: "May 2025 - Aug 2025",
     detail:
-      "Membangun RAG chatbot berbasis dokumentasi internal dan mengembangkan model YOLOv9 untuk deteksi posisi bayi."
+      "Developed a RAG-based chatbot using internal documentation and built a YOLOv9 model for baby position detection.",
+    logoPng: "/assets/company/telkom.png",
+    icons: ["RAG", "LLM", "FAISS", "Computer Vision", "PyTorch", "YOLO", "Python"]
   },
   {
-    role: "Machine Learning Engineer Bootcamp",
+    role: "Machine Learning Engineer Bootcamp Participant",
     org: "DBS Coding Camp 2025",
     time: "Feb 2025 - Jun 2025",
     detail:
-      "Pelatihan ML/DL dengan proyek hands-on (recommender, time series, NLP transformer), capstone Personal Color Detector."
+      "Completed hands-on ML/DL training covering recommender systems, time series forecasting, and NLP with transformers. Capstone project: Personal Color Detector.",
+    logoPng: "/assets/company/dbs.png",
+    icons: ["Machine Learning", "Deep Learning", "TensorFlow", "Python"]
   },
   {
-    role: "Data Scientist Project-Based Internship",
+    role: "Data Scientist (Project-Based Internship)",
     org: "Home Credit Indonesia (Rakamin)",
     time: "Dec 2024",
     detail:
-      "Data science end-to-end (Excel, Big Data, Data Warehousing, ML), rata-rata skor 81."
+      "End-to-end data science experience including Excel, Big Data, Data Warehousing, and Machine Learning, achieving an average score of 81.",
+    logoPng: "/assets/company/homecredit.png",
+    icons: ["Data Science", "SQL", "Microsoft Excel", "Machine Learning"]
+  },
+  {
+    role: "Machine Learning & AI Bootcamp Participant",
+    org: "DQLab",
+    time: "Sep 2024 - Dec 2024",
+    detail:
+      "Learn about Machine Learning, Deep Learning and deploying a model to a dashboard and be One of the best participant by creating best portfolio.",
+    logoPng: "/assets/company/dqlab.png",
+    icons: ["Python", "Google Colab", "Streamlit", "Machine Learning"]
   }
 ];
 
-export const achievements = [
-  "Finalis AI Innovation Challenge COMPFEST 17 (2025)",
-  "1st Winner ICT Business Idea Competition ITCC 2024",
-  "1st Winner Business Plan Pokja Scientific Competition 2024"
+export const projects = [
+  {
+    title: "Facility Maintenance Request Website (CV + LLM)",
+    thumb: "/assets/projects/warp.png",
+    category: ["Computer Vision", "LLM", "Product"],
+    desc:
+      "An AI-powered system that detects facility damage using custom-trained YOLOv9 and automatically generates maintenance reports integrated with the Gemini API.",
+    longDesc:
+      "An end-to-end AI system involving custom YOLOv9 training for facility damage detection. Detection results are converted into automated maintenance reports using the Gemini API and deployed as a web application to support the maintenance request workflow.",
+    tech: ["Python", "YOLOv9", "Gemini API", "Streamlit", "Roboflow"],
+    demo: "https://warp1.up.railway.app/",
+    repo: "https://github.com/adhiyasaa/Warp/tree/varel-docker"
+  },
+  {
+    title: "Get To Know About Varel's Experience",
+    thumb: "/assets/projects/get_to_know.png",
+    category: ["LLM", "RAG"],
+    desc:
+      "An interactive RAG-based virtual assistant that allows recruiters to explore my professional profile through real-time conversations.",
+    longDesc:
+      "Developed an end-to-end chatbot system using LangChain and Google Gemini API. This project implements Retrieval-Augmented Generation (RAG) to extract information from PDF documents, uses FAISS for efficient vector search, and applies prompt engineering to ensure accurate and professional responses. The system is enhanced with a human-in-the-loop feedback mechanism for model evaluation.",
+    tech: ["Python", "LangChain", "Google Gemini API", "FAISS", "Streamlit", "RAG"],
+    demo: "https://gettoknowvarel.streamlit.app/",
+    repo: "https://github.com/VarelAntoni/machine_learning_project/tree/main/chat_cv"
+  },
+  {
+    title: "Short-Video Food Recommender System",
+    thumb: "assets/projects/food_recommender.png",
+    category: ["LLM", "RAG", "Data Science"],
+    desc:
+      "A recommendation system designed to leverage corporate documentation and improve knowledge retrieval accuracy.",
+    longDesc:
+      "Built a complete RAG pipeline including document chunking, embedding, indexing, and retrieval for internal Q&A. The project focused on improving answer relevance and simplifying access to company knowledge.",
+    tech: ["Python", "System Recommendation", "Deep Learning"],
+    demo: "https://drive.google.com/file/d/1Y1NsAsONjWcMM15Gwr2Npu6QwilvOBwv/view?usp=sharing",
+    repo: "https://github.com/YusufLeoR/sistem-rekomendasi_mie-ayam-rohimah/tree/main",
+    huggingface: "https://huggingface.co/YusufLR/model_mie-ayam-rohimah/tree/main"
+  },
+  {
+    title: "RAG-based Intelligent Chatbot",
+    thumb: "/assets/projects/kca.png",
+    category: ["LLM", "RAG", "Data Science"],
+    desc:
+      "An internal Retrieval-Augmented Generation chatbot designed to leverage corporate documentation and improve knowledge retrieval accuracy.",
+    longDesc:
+      "Built a complete RAG pipeline including document chunking, embedding, indexing, and retrieval for internal Q&A. The project focused on improving answer relevance and simplifying access to company knowledge.",
+    tech: ["Python", "LLM", "RAG", "Streamlit"],
+    demo: "",
+    repo: "https://github.com/VarelAntoni/machine_learning_project/tree/main/knowledge-continuity-assistant"
+  },
+  {
+    title: "Baby Position Safety Detection (YOLOv9)",
+    thumb: "/assets/projects/bod.png",
+    category: ["Computer Vision", "Safety"],
+    desc:
+      "A computer vision model to detect baby positions (sleeping, standing, near bed edges) for safety monitoring purposes.",
+    longDesc:
+      "Developed a custom YOLOv9 model to classify baby positions under various conditions. The dataset was labeled and validated to improve robustness in real-world scenarios.",
+    tech: ["Python", "YOLOv9", "Roboflow", "CVAT"],
+    demo: "",
+    repo: "https://github.com/VarelAntoni/machine_learning_project/tree/main/baby_object_detection"
+  },
+  {
+    title: "Personal Color Detector (DBS Capstone Project)",
+    thumb: "/assets/projects/dbs.png",
+    category: ["Computer Vision", "Dashboard"],
+    desc:
+      "A computer vision application that detects personal color tones to provide fashion recommendations, deployed through a dashboard.",
+    longDesc:
+      "Capstone project of DBS Coding Camp: built a CNN-based classifier for personal color detection, performed dataset labeling and augmentation, evaluated model performance, and deployed the solution to a web dashboard for user testing.",
+    tech: ["Python", "CNN", "Streamlit", "Computer Vision"],
+    demo: "https://color-tone-detector.vercel.app/home",
+    repo: "https://github.com/Capstone-Coding-Camp-CC25-CF139"
+  },
+  {
+    title: "Heart Disease Prediction Dashboard",
+    thumb: "/assets/projects/hdp.png",
+    category: ["Data Science", "Dashboard"],
+    desc:
+      "A heart disease prediction classification model with hyperparameter tuning, presented through an interactive dashboard.",
+    longDesc:
+      "A health analytics classification project involving EDA, feature engineering, training multiple models, hyperparameter tuning, and presenting results via an interactive dashboard for better interpretability.",
+    tech: ["Python", "Machine Learning", "Streamlit"],
+    demo: "https://varelantoni-dashboard.streamlit.app/heart_disease_prediction",
+    repo: "https://github.com/VarelAntoni/machine_learning_project/tree/main/heart_disease_prediction"
+  },
+  {
+    title: "Brain Tumor Prediction",
+    thumb: "/assets/projects/bt.png",
+    category: ["Data Science", "Image Classification"],
+    desc:
+      "A brain tumor prediction classification model using CNN.",
+    longDesc:
+      "Brain Tumor Detection & Classification System Developed an end-to-end Deep Learning solution to classify brain MRI scans into four categories (Glioma, Meningioma, Pituitary, No Tumor). Leveraging Convolutional Neural Networks (CNN), the project involved extensive Exploratory Data Analysis (EDA) to handle class imbalances and image augmentation to prevent overfitting. ",
+    tech: ["Python", "Deep Learning", "CNN"],
+    demo: "",
+    repo: "https://github.com/VarelAntoni/machine_learning_project/tree/main/brain-tumor-prediction"
+  }
 ];
 
-export const certifications = [
-  "DBS Coding Camp 2025 - 13 sertifikat ML/DL (Dicoding)",
-  "Home Credit DS Project-Based Internship (Rakamin)",
-  "Accenture Data Analytics & Visualization (Forage)",
-  "10+ SQL/MySQL Certifications (DQLab)"
+// DATA DIUBAH KE FORMAT OBJECT UNTUK CARD
+export const achievements = [
+  {
+    title: "Finalist",
+    subtitle: "AI Innovation Challenge COMPFEST 17",
+    desc: "Selected as a finalist in a prestigious national AI competition developing cutting-edge solutions.",
+    date: "2025"
+  },
+  {
+    title: "1st Place Winner",
+    subtitle: "ICT Business Idea Competition ITCC",
+    desc: "Secured the top position by presenting an innovative ICT-based business solution.",
+    date: "2024"
+  },
+  {
+    title: "1st Place Winner",
+    subtitle: "Business Plan Pokja Scientific Competition",
+    desc: "Won first place for a comprehensive business plan strategy validating feasibility.",
+    date: "2024"
+  },
+  {
+    title: "Best Portfolio / Graduate",
+    subtitle: "DQLab Machine Learning & AI Bootcamp",
+    desc: "Learn about Machine Learning, Deep Learning and deploying a model to a dashboard. Recognized as one of the best participants.",
+    date: "2024"
+  }
 ];
+
+// Kosongkan agar tidak duplikat, sertifikasi utama sudah masuk ke achievements di atas
+export const certifications = [];
 
 export const organizations = [
   {
-    title: "Manager of Organizational Development (HR)",
-    org: "Society of Renewable Energy UB",
-    time: "Sep 2024 - Present",
-    detail:
-      "Membangun kultur organisasi, evaluasi program pengembangan, dan training soft skills."
+    title: "Manager of Organizational Development",
+    subtitle: "Society of Renewable Energy UB",
+    desc: "Built organizational culture, evaluated development programs, and conducted soft skills training.",
+    date: "Sep 2024 - Present",
+    logo: "/assets/org/SREUB.png" // Ganti dengan path logo SRE kamu
   },
   {
     title: "Project Officer",
-    org: "Study With SRE x Lawnergy Talks 2024",
-    time: "Oct 2024 - Nov 2024",
-    detail:
-      "Memimpin 4 divisi dan memastikan acara seminar berjalan sukses."
+    subtitle: "Study With SRE x Lawnergy Talks 2024",
+    desc: "Led four divisions and coordinated strategic planning to ensure successful seminar execution.",
+    date: "Oct 2024 - Nov 2024",
+    logo: "/assets/org/SREUB.png"
+  },
+  {
+    title: "Head of Event",
+    subtitle: "Company Visit & Power Plant Visit SRE UB 2024",
+    desc: "Led renewable energy company visits, managing logistics and strategic partnerships.",
+    date: "Mar 2024 - May 2024",
+    logo: "/assets/org/SREUB.png"
+  },
+  {
+    title: "Associate of Human Resources",
+    subtitle: "Society of Renewable Energy UB",
+    desc: "Streamlined operations, screened 80+ candidates, and hosted key organizational events.",
+    date: "Nov 2023 - Sep 2024",
+    logo: "/assets/org/SREUB.png"
+  },
+  {
+    title: "Public Relations Staff of FILKOMPRENEUR 2023",
+    subtitle: "BEM FILKOM UB",
+    desc: "Managed public relations, media outreach, and communication to promote student entrepreneurship.",
+    date: "Jun 2023 - Nov 2023",
+    logo: "/assets/org/filkomprenuer.png" // Ganti dengan path logo BEM
+  },
+  {
+    title: "Facilitator of Synergy of Symphony 2023",
+    subtitle: "KBMDSI FILKOM UB",
+    desc: "Served as a Facilitator to guide new students and foster an inclusive environment.",
+    date: "Sep 2023 - Nov 2023",
+    logo: "/assets/org/sos.png" // Ganti dengan path logo KBMDSI
+  },
+  {
+    title: "Public Relations Staff of Leader of Tomorrow 5.0",
+    subtitle: "BEM FILKOM UB",
+    desc: "Handled external communications and public relations strategies to shape future leaders.",
+    date: "Jun 2023 - Oct 2023",
+    logo: "/assets/org/lot.png"
+  },
+  {
+    title: "Security Staff of Inauguration FILKOM 2022",
+    subtitle: "BEM FILKOM UB",
+    desc: "Ensured event safety, crowd control, and protocol enforcement as Security Staff.",
+    date: "Dec 2022 - Jan 2023",
+    logo: "/assets/org/bem.png"
   }
 ];

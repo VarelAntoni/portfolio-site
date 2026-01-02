@@ -1,25 +1,42 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts}"],
+  content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       colors: {
-        bg: "#061511",                 // background utama (hijau gelap)
-        panel: "#0b2420",              // card utama (deep emerald / teal gelap)
-        panel2: "#081d1a",             // card secondary / inner panels
-        line: "rgba(255,255,255,.08)",
-        text: "#e8fff6",
-        muted: "#a7cbbb",
-        accent: "#34d399",             // emerald utama
-        accent2: "#22c55e"             
+        bg: {
+          950: "#050707",
+          900: "#070A0A",
+          850: "#0A0F0F",
+        },
+        surface: {
+          1: "rgba(255,255,255,0.04)",
+          2: "rgba(255,255,255,0.06)",
+          3: "rgba(255,255,255,0.08)",
+        },
+        stroke: {
+          1: "rgba(255,255,255,0.08)",
+          2: "rgba(255,255,255,0.12)",
+        },
+        text: {
+          1: "rgba(255,255,255,0.92)",
+          2: "rgba(255,255,255,0.74)",
+          3: "rgba(255,255,255,0.58)",
+        },
+        accent: {
+          400: "#34d399",
+          500: "#10b981",
+          600: "#059669",
+        },
       },
       boxShadow: {
-        soft: "0 10px 30px rgba(0,0,0,.35)"
+        soft: "0 12px 40px rgba(0,0,0,0.45)",
+        lift: "0 18px 60px rgba(0,0,0,0.55)",
       },
       borderRadius: {
-        xl2: "18px"
-      }
-    }
+        xl2: "1.25rem",
+      },
+    },
   },
-  plugins: []
+  plugins: [],
 };
