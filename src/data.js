@@ -165,7 +165,6 @@ export const projects = [
   }
 ];
 
-// DATA DIUBAH KE FORMAT OBJECT UNTUK CARD
 export const achievements = [
   {
     title: "Finalist",
@@ -193,7 +192,6 @@ export const achievements = [
   }
 ];
 
-// Kosongkan agar tidak duplikat, sertifikasi utama sudah masuk ke achievements di atas
 export const certifications = [];
 
 export const organizations = [
@@ -202,7 +200,7 @@ export const organizations = [
     subtitle: "Society of Renewable Energy UB",
     desc: "Built organizational culture, evaluated development programs, and conducted soft skills training.",
     date: "Sep 2024 - Present",
-    logo: "/assets/org/SREUB.png" // Ganti dengan path logo SRE kamu
+    logo: "/assets/org/SREUB.png" 
   },
   {
     title: "Project Officer",
@@ -230,14 +228,14 @@ export const organizations = [
     subtitle: "BEM FILKOM UB",
     desc: "Managed public relations, media outreach, and communication to promote student entrepreneurship.",
     date: "Jun 2023 - Nov 2023",
-    logo: "/assets/org/filkomprenuer.png" // Ganti dengan path logo BEM
+    logo: "/assets/org/filkomprenuer.png" 
   },
   {
     title: "Facilitator of Synergy of Symphony 2023",
     subtitle: "KBMDSI FILKOM UB",
     desc: "Served as a Facilitator to guide new students and foster an inclusive environment.",
     date: "Sep 2023 - Nov 2023",
-    logo: "/assets/org/sos.png" // Ganti dengan path logo KBMDSI
+    logo: "/assets/org/sos.png" 
   },
   {
     title: "Public Relations Staff of Leader of Tomorrow 5.0",
