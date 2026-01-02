@@ -24,7 +24,7 @@ export const experience = [
     time: "Oct 2025 - Present",
     detail:
       "Developing a Safety AI System for maritime logistics, maintaining dataset quality, and performing object classification related to safety and logistics (PPE, cargo).",
-    logoPng: "assets/company/cadit.png",
+    logoPng: "/assets/company/cadit.png",
     icons: ["Computer Vision", "PyTorch", "YOLO", "Python"]
   },
   {
