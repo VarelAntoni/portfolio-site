@@ -249,6 +249,6 @@ export const organizations = [
     subtitle: "BEM FILKOM UB",
     desc: "Ensured event safety, crowd control, and protocol enforcement as Security Staff.",
     date: "Dec 2022 - Jan 2023",
-    logo: "/assets/org/bem.png"
+    logo: "/assets/org/inau.png"
   }
 ];
