@@ -116,7 +116,7 @@ const skillsWrap = $("#skillsChips");
 if (skillsWrap) {
   const skillsList = [
     "Python", "SQL", "MySQL", "Google Colab", "Jupyter", "Roboflow", "Streamlit",
-    "PyTorch", "TensorFlow", "Scikit-learn", "OpenCV", "YOLO", "FAISS", "GitHub", "Microsoft Excel",
+    "PyTorch", "TensorFlow", "Scikit-learn", "OpenCV", "YOLO", "FAISS", "GitHub", "Microsoft Excel", "Docker"
   ];
   skillsWrap.innerHTML = chipRowIconify(skillsList);
 }
