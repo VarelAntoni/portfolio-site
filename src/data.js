@@ -23,7 +23,7 @@ export const experience = [
     org: "CADIT Consultants Asia Pte Ltd",
     time: "Oct 2025 - Present",
     detail:
-      "Developing a Safety AI System for maritime logistics, maintaining dataset quality, and performing object classification related to safety and logistics (PPE, cargo).",
+      "Assisted in engineering computer vision solutions for safety and assembly monitoring, implementing dynamic ROI logic for precise component validation utilizing YOLO, OpenCV, and Docker.",
     logoPng: "/assets/company/cadit.png",
     icons: ["Computer Vision", "PyTorch", "YOLO", "Python"]
   },
