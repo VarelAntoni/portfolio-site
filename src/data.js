@@ -1,6 +1,6 @@
 export const profile = {
   name: "Muhammad Varel Antoni",
-  tagline: "AI/ML Engineer | Ex-Computer Vision Engineer Intern @ CADIT Consultants Asia Pte Ltd | Ex-Data Scientist Intern @ PT Telkom Indonesia | Undergraduate Information Technology Student @ University of Brawijaya",
+  tagline: "AI/ML Engineer | Ex-Computer Vision Engineer Intern @ CADIT Consultants Asia Pte Ltd | Ex-Data Scientist Intern @ PT Telkom Indonesia | Fresh Graduate Information Technology Student @ University of Brawijaya",
   location: "Malang, Indonesia",
   email: "varelantoni@gmail.com",
   whatsapp: "6287836466177",
@@ -12,8 +12,8 @@ export const profile = {
 export const about = {
   title: "About Me",
   paragraphs: [
-    "I’m Muhammad Varel Antoni, an Informatics student at the University of Brawijaya with a strong interest in Data Science and Artificial Intelligence. I enjoy transforming data into meaningful insights and building practical AI solutions that address real-world problems. My experience includes developing end-to-end machine learning pipelines from data preparation and modeling to evaluation and deployment across projects in computer vision and LLM-based applications.",
-    "Beyond modeling, I focus on delivering usable and impactful products by designing clear workflows, ensuring high-quality data, and deploying prototypes using tools such as Streamlit for real-world testing. I am continuously learning and highly motivated to contribute to internship or project opportunities as a Data Scientist, Machine Learning Engineer, or Computer Vision Engineer, collaborating with teams to build reliable, user-centered AI systems."
+    "I'm Muhammad Varel Antoni, an Information Technology student at the University of Brawijaya with a strong interest in Data Science, Machine Learning Engineer and Artificial Intelligence. I enjoy transforming data into meaningful insights and building practical AI solutions that address real-world problems. My experience includes developing end-to-end machine learning pipelines from data preparation and modeling to evaluation and deployment across projects in computer vision and LLM-based applications.",
+    "Beyond modeling, I focus on delivering usable and impactful products by designing clear workflows, ensuring high-quality data, and deploying prototypes using tools such as Streamlit and others for real-world testing. I am continuously learning and highly motivated to contribute to internship or project opportunities as a Data Scientist, Machine Learning Engineer, or Computer Vision Engineer, collaborating with teams to build reliable, user-centered AI systems."
   ]
 };
 
