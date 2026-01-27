@@ -1,12 +1,12 @@
 export const profile = {
   name: "Muhammad Varel Antoni",
-  tagline: "Computer Vision Engineer Intern @ CADIT Consultants Asia Pte Ltd | Ex-Data Scientist Intern @ PT Telkom Indonesia | Undergraduate Information Technology Student @ University of Brawijaya",
+  tagline: "AI/ML Engineer | Ex-Computer Vision Engineer Intern @ CADIT Consultants Asia Pte Ltd | Ex-Data Scientist Intern @ PT Telkom Indonesia | Undergraduate Information Technology Student @ University of Brawijaya",
   location: "Malang, Indonesia",
   email: "varelantoni@gmail.com",
   whatsapp: "6287836466177",
   github: "https://github.com/VarelAntoni",
   linkedin: "https://www.linkedin.com/in/muhammadvarelantoni/",
-  cv: "https://drive.google.com/file/d/1bn4MXwnTIwdSniLUSfsysFHIk8dBI7bk/view?usp=sharing"
+  cv: "https://drive.google.com/file/d/1P46aOKx_udWiz87-gBNMYgBLdngjHEQ0/view?usp=drive_link"
 };
 
 export const about = {
@@ -21,7 +21,7 @@ export const experience = [
   {
     role: "Computer Vision Engineer Intern",
     org: "CADIT Consultants Asia Pte Ltd",
-    time: "Oct 2025 - Present",
+    time: "Oct 2025 - Jan 2026",
     detail:
       "Assisted in engineering computer vision solutions for safety and assembly monitoring, implementing dynamic ROI logic for precise component validation utilizing YOLO, OpenCV, and Docker.",
     logoPng: "/assets/company/cadit.png",
@@ -66,6 +66,18 @@ export const experience = [
 ];
 
 export const projects = [
+  {
+    title: "Early Detection of Cow Lameness Using Dense Optical Flow and LSTM",
+    thumb: "/assets/projects/cow_lameness_result.png",
+    category: ["Computer Vision", "Data Science"],
+    desc:
+      "A Spatio-Temporal Deep Learning system combining YOLOv11 Pose Estimation and Dense Optical Flow to detect cow lameness severity.",
+    longDesc:
+      "Developed a non-invasive diagnostic system to classify dairy cow lameness into four severity levels (Healthy, Mild, Moderate, Severe). The pipeline utilizes a hybrid spatio-temporal approach. YOLOv11 Pose Estimation is deployed to perform robust skeletal tracking, precisely locating key anatomical joints (e.g., hooves, knees) to act as spatial filters, isolating relevant body parts from background noise. This anatomical guidance is combined with Dense Optical Flow (Farneback) with custom sensitivity gain to capture dynamic gait features. These fused features are processed by a Bidirectional LSTM network to learn temporal patterns from 40-frame sequences, achieving 95.68% accuracy. This solution enables real-time monitoring for Smart Farming applications.",
+    tech: ["Python", "PyTorch", "YOLOv11", "LSTM", "OpenCV", "Optical Flow"],
+    demo: "",
+    repo: "https://github.com/VarelAntoni/Early-Detection-of-Cow-Lameness"
+},
   {
     title: "Facility Maintenance Request Website (CV + LLM)",
     thumb: "/assets/projects/warp.png",
@@ -150,18 +162,6 @@ export const projects = [
     tech: ["Python", "Machine Learning", "Streamlit"],
     demo: "https://varelantoni-dashboard.streamlit.app/heart_disease_prediction",
     repo: "https://github.com/VarelAntoni/machine_learning_project/tree/main/heart_disease_prediction"
-  },
-  {
-    title: "Brain Tumor Prediction",
-    thumb: "/assets/projects/bt.png",
-    category: ["Data Science", "Image Classification"],
-    desc:
-      "A brain tumor prediction classification model using CNN.",
-    longDesc:
-      "Brain Tumor Detection & Classification System Developed an end-to-end Deep Learning solution to classify brain MRI scans into four categories (Glioma, Meningioma, Pituitary, No Tumor). Leveraging Convolutional Neural Networks (CNN), the project involved extensive Exploratory Data Analysis (EDA) to handle class imbalances and image augmentation to prevent overfitting. ",
-    tech: ["Python", "Deep Learning", "CNN"],
-    demo: "",
-    repo: "https://github.com/VarelAntoni/machine_learning_project/tree/main/brain-tumor-prediction"
   }
 ];
 

@@ -89,6 +89,7 @@ const iconifyMap = {
   "YOLO": "mdi:target",
   "Docker": "simple-icons:docker",
   "GitHub": "simple-icons:github",
+  "AWS": "simple-icons:amazonaws",
 };
 
 // chip builder
@@ -115,7 +116,7 @@ if (interestWrap) {
 const skillsWrap = $("#skillsChips");
 if (skillsWrap) {
   const skillsList = [
-    "Python", "SQL", "MySQL", "Google Colab", "Jupyter", "Roboflow", "Streamlit",
+    "Python", "SQL", "AWS", "Google Colab", "Jupyter", "Roboflow", "Streamlit", "MySQL",
     "PyTorch", "TensorFlow", "Scikit-learn", "OpenCV", "YOLO", "FAISS", "GitHub", "Microsoft Excel", "Docker"
   ];
   skillsWrap.innerHTML = chipRowIconify(skillsList);
