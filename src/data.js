@@ -37,8 +37,8 @@ export const experience = [
     icons: ["RAG", "LLM", "FAISS", "Computer Vision", "PyTorch", "YOLO", "Python"]
   },
   {
-    role: "Machine Learning Engineer Bootcamp Participant",
-    org: "DBS Coding Camp 2025",
+    role: "Machine Learning Engineer Cohort",
+    org: "Coding Camp 2025 by DBS Foundation",
     time: "Feb 2025 - Jun 2025",
     detail:
       "Completed hands-on ML/DL training covering recommender systems, time series forecasting, and NLP with transformers. Capstone project: Personal Color Detector.",
